@@ -3,10 +3,10 @@ import os
 from pyrogram import Client, filters
 import requests
 
-API_ID = int(os.getenv("API_ID"))
-API_HASH = os.getenv("API_HASH")
-BOT_TOKEN = os.getenv("BOT_TOKEN")
-OWNER_ID = int(os.getenv("BOT_OWNER_ID"))
+API_ID = int(os.getenv("28748671"))
+API_HASH = os.getenv("f53ec7c41ce34e6d585674ed9ce6167c")
+BOT_TOKEN = os.getenv("8086953920:AAGYBOwM4ysQ0bZKrOJn0IADQE439nz1t2E")
+OWNER_ID = int(os.getenv("1169394017"))
 UPLOADER_URL = os.getenv("UPLOADER_URL")
 
 app = Client("bot", api_id=API_ID, api_hash=API_HASH, bot_token=BOT_TOKEN)
